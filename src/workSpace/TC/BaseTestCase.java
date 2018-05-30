@@ -1,4 +1,4 @@
-package test.java.Base;
+package workSpace.TC;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -6,8 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import workSpace.Users.Tester;
 
 public class BaseTestCase {
-
-	private String basePage = "http://testing-ground.scraping.pro/login";
+private String basePage = "http://testing-ground.scraping.pro/login";
 	
 	protected Tester tester=new Tester();
 	

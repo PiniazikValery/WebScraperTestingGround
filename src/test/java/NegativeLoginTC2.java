@@ -4,7 +4,8 @@ import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Test;
 
-import test.java.Base.BaseTestCase;
+import workSpace.TC.BaseTestCase;
+
 
 public class NegativeLoginTC2 extends BaseTestCase{
   @Test
